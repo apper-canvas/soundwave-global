@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "title": "Midnight Echoes",
+    "artist": "Luna Waves",
+    "album": "Nocturne Dreams",
+    "duration": 243,
+    "coverUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+    "audioUrl": "https://example.com/audio/midnight-echoes.mp3"
+  },
+  {
+    "id": "2", 
+    "title": "Electric Horizon",
+    "artist": "Neon Pulse",
+    "album": "Synthetic Souls",
+    "duration": 198,
+    "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300",
+    "audioUrl": "https://example.com/audio/electric-horizon.mp3"
+  },
+  {
+    "id": "3",
+    "title": "Oceanic Drift",
+    "artist": "Azure Depths", 
+    "album": "Deep Blue",
+    "duration": 287,
+    "coverUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
+    "audioUrl": "https://example.com/audio/oceanic-drift.mp3"
+  },
+  {
+    "id": "4",
+    "title": "Stellar Journey",
+    "artist": "Cosmic Rays",
+    "album": "Interstellar",
+    "duration": 312,
+    "coverUrl": "https://images.unsplash.com/photo-1458560871784-56d23406c091?w=300",
+    "audioUrl": "https://example.com/audio/stellar-journey.mp3"
+  },
+  {
+    "id": "5",
+    "title": "Urban Pulse",
+    "artist": "City Lights",
+    "album": "Metropolitan",
+    "duration": 176,
+    "coverUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+    "audioUrl": "https://example.com/audio/urban-pulse.mp3"
+  },
+  {
+    "id": "6",
+    "title": "Forest Whispers",
+    "artist": "Nature's Symphony",
+    "album": "Earthbound",
+    "duration": 254,
+    "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300",
+    "audioUrl": "https://example.com/audio/forest-whispers.mp3"
+  },
+  {
+    "id": "7",
+    "title": "Digital Dreams",
+    "artist": "Tech Noir",
+    "album": "Cybernetic",
+    "duration": 205,
+    "coverUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
+    "audioUrl": "https://example.com/audio/digital-dreams.mp3"
+  },
+  {
+    "id": "8",
+    "title": "Amber Skies",
+    "artist": "Golden Hour",
+    "album": "Sunset Collection",
+    "duration": 289,
+    "coverUrl": "https://images.unsplash.com/photo-1458560871784-56d23406c091?w=300",
+    "audioUrl": "https://example.com/audio/amber-skies.mp3"
+  },
+  {
+    "id": "9",
+    "title": "Velocity Rush",
+    "artist": "Speed Machine",
+    "album": "High Octane",
+    "duration": 167,
+    "coverUrl": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300",
+    "audioUrl": "https://example.com/audio/velocity-rush.mp3"
+  },
+  {
+    "id": "10",
+    "title": "Silent Storm",
+    "artist": "Thunder Bay",
+    "album": "Weather Patterns", 
+    "duration": 321,
+    "coverUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300",
+    "audioUrl": "https://example.com/audio/silent-storm.mp3"
+  },
+  {
+    "id": "11",
+    "title": "Crimson Tide",
+    "artist": "Red Ocean",
+    "album": "Scarlet Waves",
+    "duration": 236,
+    "coverUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300",
+    "audioUrl": "https://example.com/audio/crimson-tide.mp3"
+  },
+  {
+    "id": "12",
+    "title": "Phoenix Rising",
+    "artist": "Fire Rebirth",
+    "album": "From Ashes",
+    "duration": 278,
+    "coverUrl": "https://images.unsplash.com/photo-1458560871784-56d23406c091?w=300",
+    "audioUrl": "https://example.com/audio/phoenix-rising.mp3"
+  }
+]
