@@ -67,23 +67,30 @@ const HomePage = ({ darkMode, setDarkMode }) => {
     } else {
       setSearchResults([])
     }
-  }, [searchQuery, tracks])
+}, [searchQuery, tracks])
 
   useEffect(() => {
     let interval
     if (isPlaying && currentTrack) {
       interval = setInterval(() => {
         setProgress(prev => {
-          if (prev >= 100) {
-            handleNext()
-            return 0
-          }
-          return prev + (100 / (currentTrack.duration || 180))
+          const newProgress = prev + (100 / (currentTrack.duration || 180))
+          return newProgress >= 100 ? 100 : newProgress
         })
       }, 1000)
     }
     return () => clearInterval(interval)
   }, [isPlaying, currentTrack])
+
+  // Separate effect to handle track completion
+  useEffect(() => {
+    if (progress >= 100 && isPlaying && currentTrack) {
+      const timer = setTimeout(() => {
+        handleNext()
+      }, 100)
+      return () => clearTimeout(timer)
+    }
+  }, [progress, isPlaying, currentTrack, handleNext])
 
   const handlePlayPause = useCallback(() => {
     setIsPlaying(prev => {
